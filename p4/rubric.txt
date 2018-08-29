@@ -1,0 +1,49 @@
+Grade: 08/70
+Points Back: 57
+=================================================
+Quality
+- Code is well formatted and easy to read 8/10
+
+  Code overall looks clean and is easy to navigate. Some variables you have to jump around to find.
+
+- History command still works 00/10
+
+  This was not working due to segmentation fault
+
+- cd command still works 00/5
+
+  This was not working due to segmentation fault
+
+- cd/history command does NOT use FORK 00/5
+
+  This was not working due to segmentation fault
+
+- Fork/exec works without errors 00/15
+  - ls
+  - ls -a
+  - ls -a -l
+  - sleep 5
+  - foooooooooo
+  
+  This was not working due to segmentation fault
+
+- Randomly kills 25% of processes 00/15
+
+  This was not working due to segmentation fault
+
+- Valgrind is clean 00/10
+
+  This was not working due to segmentation fault
+
+
+Reflection:
+I have a segmentation fault everytime i type something in the smash shell which is why none of my code could
+be tested even though I think that my code is mostly correctly parsing args and forking. I had not done the
+randomly killing part at the time of peer review.
+
+I have got rid of the seg fault now and my program runs well. Also, I have completed the randomly killing child
+processes part.
+History command works now. Cd command works too. cd/history does not use fork. fork/exec works without errors.
+Randomly kills 25% of processes.
+
+

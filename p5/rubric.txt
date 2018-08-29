@@ -1,0 +1,22 @@
+Grade: 70/70
+=================================================
+- Functionality: 40/40
+  + Passing all grader scripts (nothing broken)
+  + Passing valgrind with clean bill of health
+  + Content written to log (in the file)
+
+- Code quality: 20/20
+  + Code is well written and well formatted as outlined in peer reviews/class.
+
+- README.md: 10/10
+  + Follows template, correct grammar/spelling.
+  + Sources Uses properly filled out.
+
+- Reflection: 
+
+  I really enjoyed working on this project. I loved the concept of multi threading and how many processes in
+  a sequential program can be threaded and parallely processes to make our code more efficient. The threads are
+  later joined together after the processing is done. And for those thread processing to coordinate properly,
+  it was important to set alarm signals to hint that a process has ended.
+Also, at the time of peer review, I had not done my README so I have done it
+after and updated my rubric score for README to be 10/10.

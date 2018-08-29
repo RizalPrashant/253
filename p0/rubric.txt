@@ -1,0 +1,10 @@
+Grade: XX/10
+=================================================
+Quality
+- Submission (5 points)
+  * Only required files were committed
+  Reflection:
+
+- Program features (5 points)
+   * Hello World compiles.
+   Reflection:

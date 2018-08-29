@@ -1,0 +1,23 @@
+Grade: 61/70
+=================================================
+-Git repo (backpack) is all up to date and git status returns clean 05/5pts
+  - git pull
+  - git status
+-Part 1 15/15pt
+  - Modularity/Readability
+-Part 2 30/36pts
+  - Command history
+  - Do you have a max number of entries?  Max Entries 100 
+  - What happens when you hit the max history entries? segmentation fault (core dumped)
+
+- Code quality 11/14pts
+  - Valgrind  04/7 Memory leak  
+  - Can I understand the code? 07/7
+  
+- Reflection
+  When I get to the max entry level,  I get a segmentation fault(core dumped) 
+  because of calling a memory overflow. Also, valgrind gave me memory leaks because of not completely clearing the
+  allocated memories.
+  
+  Update: I have now added a return condition to add_history so that when the history.index exceeds 99 it will just
+  return and not add anything to the history.

@@ -1,0 +1,10 @@
+Grade: XX/40
+=================================================
+Quality
+- Passing all grader scripts (25 points): XX/25
+  Reflection:
+
+- Makefile is well written (10 points): XX/10
+  Reflection:
+
+- README.md: X/5

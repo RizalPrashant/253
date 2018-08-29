@@ -1,0 +1,5 @@
+log 0: Fri Apr 28 12:24:30 2017 -- Error: shutdown 2
+log 1: Fri Apr 28 12:24:30 2017 -- Error: shutdown 3
+log 2: Fri Apr 28 12:24:30 2017 -- Error: we tried to make foo when we needed bar  ...
+log 3: Fri Apr 28 12:24:30 2017 -- Error: failed 6
+log 4: Fri Apr 28 12:24:30 2017 -- Error: shutdown 1

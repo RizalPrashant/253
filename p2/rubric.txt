@@ -1,0 +1,34 @@
+Grade: 70/70
+=================================================
+- Passing all grader scripts (50 points): 50/50
+
+  Reflection:
+  
+      No, it does not check everything. The tests for part two did not check for different change directory scenarios.
+      So, I had to test changing directory backwards and forward manually as well as using cd .. which should function properly.
+      Manual testing involved make and then executing smash and then testing those commands.
+
+- Code quality (10 points): 10/10
+	The programmer makes consistent use of indentation
+	The programmer makes consistent use of braces
+	#include directives are listed at the top of the file
+	#define directives are at the top of the file, after includes
+	The programmer makes use of comments where necessary
+	There are no unnecessary lines of code (e.g. commented, unused code)
+	No global variables are used
+	The names of constants defined by #define are in all CAPITAL letters
+	Variable names are descriptive
+	Variable name casing is consistent (e.g. camelCase or underscore_separation)
+	Variables are all initialized before use
+
+  Reflection:
+	This project taught me how to add functions like cd and exit in my smash shell. I learnt that adding the null pointer at the end of the buffer was really important because
+	the string compare strcmp could not make "exit" and the token "exit\n" equal since the end of the token is a return key. 
+
+- README.md: 10/10
+	Follows the required format.
+	Is descriptive about how to compile and use.
+
+  Reflection:
+	I think the overall project creating experience was a good one. Solving the code by yourself and then the peer review helped me discover how my code could be improved even further.
+	Also, the project made you understand code better by looking at different other testing scripts and seeing what the project requires and such.
